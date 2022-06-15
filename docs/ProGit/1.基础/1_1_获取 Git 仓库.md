@@ -13,13 +13,13 @@
 
 在 Windows 上：
 
-```console
+```bash
 $ cd /c/user/my_project
 ```
 
 之后执行：
 
-```console
+```bash
 $ git init
 ```
 
@@ -31,7 +31,7 @@ Git 克隆的是该 Git 仓库服务器上的几乎所有数据，而不是仅�
 
 克隆仓库的命令是 `git clone <url>` 。 比如，要克隆 Git 的链接库 `libgit2`，可以用下面的命令：
 
-```console
+```bash
 $ git clone https://github.com/libgit2/libgit2
 ```
 
@@ -39,7 +39,7 @@ $ git clone https://github.com/libgit2/libgit2
 
 如果你想在克隆远程仓库的时候，自定义本地仓库的名字，你可以通过额外的参数指定新的目录名：
 
-```console
+```bash
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 

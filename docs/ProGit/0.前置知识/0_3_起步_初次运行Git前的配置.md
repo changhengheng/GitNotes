@@ -14,7 +14,7 @@ Git 自带一个 `git config` 的工具来帮助设置控制 Git 外观和行为
 
 你可以通过以下命令查看所有的配置以及它们所在的文件：
 
-```console
+```bash
 git config --list --show-origin
 ```
 
@@ -22,7 +22,7 @@ git config --list --show-origin
 
 设置你的用户名和邮件地址。 这一点很重要，因为每一个 Git 提交都会使用这些信息，它们会写入到你的每一次提交中，不可更改：
 
-```console
+```bash
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
@@ -35,7 +35,7 @@ git config --global user.email johndoe@example.com
 
 你可以通过输入 `git config <key>`： 来检查 Git 的某一项配置
 
-```console
+```bash
 $ git config user.name
 John Doe
 ```
